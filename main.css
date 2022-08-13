@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --one: #dadada;
+  --two: #f0d8eb;
+  --three: #ffd1e1;
+  --four: #ffd1bc;
+  --five: #ffdf8d;
+  --six: #f9f871;
+}
+
+body {
+  /* background: var(--four); */
+}
+
+header {
+}
+
+.content {
+  background-color: #eff2f7;
+  padding: 2rem;
+  width: 80%;
+  margin: 10% auto 0;
+  border-radius: 2vmax;
+  -webkit-border-radius: 2vmax;
+  -moz-border-radius: 2vmax;
+  -ms-border-radius: 2vmax;
+  -o-border-radius: 2vmax;
+}
+
+.content h2 {
+  font-size: 3rem;
+}
+
+header .container {
+  padding: 2rem 0;
+  border-radius: 2vmax;
+  -webkit-border-radius: 2vmax;
+  -moz-border-radius: 2vmax;
+  -ms-border-radius: 2vmax;
+  -o-border-radius: 2vmax;
+}
+
+header .container .form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .form input[type="text"] {
+  padding: 1rem;
+  border-radius: 5px;
+  width: 60%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+header .container .form input[type="text"]:focus {
+  outline: none;
+}
+
+header .container .form input[type="button"] {
+  color: white;
+  background: var(--three);
+  font-size: 1.5rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 1vmax;
+  -webkit-border-radius: 1vmax;
+  -moz-border-radius: 1vmax;
+  -ms-border-radius: 1vmax;
+  -o-border-radius: 1vmax;
+  cursor: pointer;
+}
+
+.task-container {
+}
+
+.task-container .container {
+  background-color: var(--one);
+  padding: 2rem 3rem;
+  border-radius: 2vmax;
+  -webkit-border-radius: 2vmax;
+  -moz-border-radius: 2vmax;
+  -ms-border-radius: 2vmax;
+  -o-border-radius: 2vmax;
+}
+
+.task-container .container .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-container .container .task p {
+  /* color: white; */
+  font-size: 1.2rem;
+  /* width: 60%; */
+}
+.task-container .container .task span {
+  background-color: var(--four);
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1vmax;
+  -webkit-border-radius: 1vmax;
+  -moz-border-radius: 1vmax;
+  -ms-border-radius: 1vmax;
+  -o-border-radius: 1vmax;
+  cursor: pointer;
+}
